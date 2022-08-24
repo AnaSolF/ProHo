@@ -1,0 +1,35 @@
+body{
+    list-style: none;
+    background-color: black;
+    color: white;
+    font-size: large;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+text-align: center;
+}
+
+#footer{
+    font-family:'Alumni Sans Pinstripe', sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu th{
+    border: 2px solid white;
+    border-style: double;
+    border-radius: 1em;
+}
+
+#contacto{
+ align-items: center;/*ver como alinear al centro*/
+}
+
