@@ -44,6 +44,9 @@ body {
     padding-bottom: 20px;
     padding-top: 0%;
     border-radius: 50px;
+    border: 5px;
+    color: r#3e0034ed;
+    border-color: red;
   }
 
   h1{
@@ -66,13 +69,17 @@ a{
 }
 
 #menu th{
-    border: 2px solid red;
+    border: 5px solid #3e0034;
     border-style: double;
     border-radius: 10em;
     padding: 15px;
     background-color: black;
-    border-color: red;
+    border-color:#f80000;
     font-size: large;
+}
+
+#menu th:hover{
+    background-color: white;
 }
 
 th{
@@ -80,8 +87,10 @@ th{
 }
 
 #menu :hover{
-color: red;
+color: #3e0034;
 }
+
+
 
 #contacto{
  align-items: center;/*ver como alinear al centro*/
