@@ -1,35 +1,88 @@
-body{
-    list-style: none;
-    background-color: black;
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+  }
+  .sect {
+    width: 100%;
+    min-height: 500px;
+  }
+  #sect1{
+    color: #fff;
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  #sect2 {
+    color: rgb(173, 178, 182);
+    color: #fff;
+    text-align: center;
+  }
+
+  #sect3 {
+    text-align: center;
+    margin-top: 0%;
     color: white;
-    font-size: large;
-    
-}
+  }
+  
+  video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
 
-h1 {
+  header{
+    background-image: url(./Imagenes/sydney-4034244_960_720.jpg);
+    opacity:0.7 ;
+    padding-bottom: 20px;
+    padding-top: 0%;
+    border-radius: 50px;
+  }
+
+  h1{
     text-align: center;
-}
+    padding-top: 50px;
+    color: white;
+    font-size: 500%;
+  }
+  h1 :hover{
+    color:red;
+  }
 
-h2 {
-text-align: center;
-}
-
-#footer{
-    font-family:'Alumni Sans Pinstripe', sans-serif;
+  h3{
+    color: white;
     text-align: center;
-}
+  }
 
 a{
     text-decoration: none;
 }
 
 #menu th{
-    border: 2px solid white;
+    border: 2px solid red;
     border-style: double;
-    border-radius: 1em;
+    border-radius: 10em;
+    padding: 15px;
+    background-color: black;
+    border-color: red;
+    font-size: large;
+}
+
+th{
+    color: white;
+}
+
+#menu :hover{
+color: red;
 }
 
 #contacto{
  align-items: center;/*ver como alinear al centro*/
 }
-
