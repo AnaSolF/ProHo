@@ -6,8 +6,9 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: white;
-  
   font-size: 70em;
+  background-color: black;
+  opacity: 0,3;
 }
 
 #header-container{
@@ -16,11 +17,10 @@ body {
   text-align: center;
   border: 1px solid red;
   padding: 30px;
-  margin-top: 10px;
   border-radius: 20px;
 }
 #container{
-  margin-left: 125px;
+  margin-left: 5px;
   margin-top: 0px;
   position: relative;
   overflow: hidden;
@@ -49,6 +49,22 @@ box-shadow: 13px 15px 37px black;
   text-shadow: 0 0 8px rgba(0, 0, 0, alpha);
 }
 
+
+h1{
+  text-align: center;
+  font-size: larger;
+  padding-top: 40px;
+}
+
+h1:hover{
+  color:white;
+  transform: scale(1.1);
+  box-shadow: 13px 15px 37px red;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 0, 0, alpha);
+  padding-bottom: 10px;
+}
+
 table{
   margin-left: 580px;
   margin-right: 100px;
@@ -60,6 +76,7 @@ text-decoration: none;
 color: red;
 margin-top: 10px;
 padding: 20px;
+margin-right: 10px;
 border-radius: 20px;
 cursor: pointer;
 }
@@ -69,21 +86,6 @@ th:hover{
   transform: scale(1.1);
   box-shadow: 13px 15px 37px red;
   font-size: larger;
-}
-
-
-.MenuLateral{
-float: left;
-border: 1px solid black;
-padding-bottom: 409px;
-padding-top: 0px;
-margin-left: 3px;
-padding-right: 5px;
-margin-top: 0%;
-background-color: black;
-border: 1px solid red;
-cursor: pointer;
-border-radius: 10px;
 }
 
 li{
@@ -113,18 +115,72 @@ a{
 
 
 #foot{
-  padding-top: 80px;
-  text-align: center;
+  padding-top: 20px;
   margin-left: 3px;
   background-color: black;
   color: white;
   border-radius: 10px;
-  padding-bottom: 83px;
+  padding-bottom: 8px;
+  padding-left: 720px;
   border: 2px solid red;
   
 }
 
-#seccion2{
-  background-color: brown;
+#seccion1{
+  background-color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  padding-bottom: 300px;
 }
+
+
+
+#seccion2{
+background-color: black;
+margin-left: 5px;
+margin-right: 5px;
+padding-left: 20px;
+padding-bottom: 50px;
+color: white;
+}
+
+#contacto tbody{
+  padding-top: 5px;
+}
+
+#contacto tr td{
+padding-top: 100px;
+padding-right: 10px;
+padding-left: 28px;
+}
+
+#img{
+margin-left: 10px;
+}
+
+#ParrafoImagen {
+ margin-top: 80px;
+ margin-left: 10px;
+ font-size: large;
+ margin-right: 30px;
+ font-family: 'Alumni Sans Pinstripe', sans-serif;
+ font-size: large;
+}
+
+ParrafoImagen2{
+  margin-left: 10px;
+  font-size: large;
+  margin-top: 100px;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: large;
+}
+
+#img1{
+padding-bottom: 150px;
+padding-bottom: 75px;
+}
+
+
+
 
