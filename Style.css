@@ -18,6 +18,13 @@ body {
   border-radius: 20px;
 }
 
+.logo{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: animate__backInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
 #container{
   margin-left: 5px;
   margin-top: 0px;
@@ -51,7 +58,7 @@ box-shadow: 13px 15px 37px black;
 h1{
   text-align: center;
   font-size: larger;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 h1:hover{
